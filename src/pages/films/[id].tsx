@@ -7,7 +7,7 @@ import { useGetFilmByIdQuery } from '@/store/services/films'
 import { IFilmFull } from '@/types/interfaces'
 import { getContent } from '@/utils/validateData'
 import { GetServerSidePropsContext } from 'next'
-import { Spinner } from '@/components/ui/Spinner/Spinner'
+import { Spinner } from '@/components/ui/Spinner'
 
 export const getServerSideProps = (context: GetServerSidePropsContext) => {
   const { id } = context.query
