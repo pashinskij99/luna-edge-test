@@ -1,5 +1,5 @@
 import Error from '@/components/ErrorComponent'
-import { ButtonFavorite } from '@/components/ui/Button/Button'
+import { ButtonFavorite } from '@/components/ui/Button'
 import { useIsFavorite } from '@/hooks/useIsFavorite'
 import { useAppDispatch } from '@/store/hooks'
 import { setFilm } from '@/store/services/favorite'

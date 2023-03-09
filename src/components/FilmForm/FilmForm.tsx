@@ -1,8 +1,8 @@
 import { useAppDispatch, useAppSelector } from '@/store/hooks'
 import { setName } from '@/store/services/filmSearchParams'
 import { ChangeEventHandler, FormEventHandler, useState } from 'react'
-import { ButtonSearch } from '../ui/Button/Button'
-import { Input } from '../ui/Input/Input'
+import { ButtonSearch } from '../ui/Button'
+import { Input } from '../ui/Input'
 
 const FilmForm = () => {
   const { name } = useAppSelector((state) => state.filmSearchParams)

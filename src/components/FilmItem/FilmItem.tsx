@@ -13,7 +13,7 @@ const FilmItem = ({ Poster, Title, Type, Year, imdbID }: IFilm) => {
         <img
           src={Poster === 'N/A' ? NotFoundImage.src : Poster}
           alt={Title}
-          className='w-[100%] h-[300px]'
+          className='w-[100%] h-[300px] object-contain'
         />
       </div>
 
